@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Righteous', cursive;;
+}
+
+
+
+.back_img1 {
+   
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0.8,0.6)), url('../about/banner.jpg');
+    height: 90vh;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.text3{
+    
+   padding-top: 300px;
+    
+   
+}
+
+.navbar-brand img{
+    width: 120px;
+   
+    margin-left: 100px;
+}
+
+.navbar ul{
+    margin-left: 40%;
+    font-family: 'Handlee', cursive;
+    
+}
+.navbar-nav li a{
+    font-size: 18px;
+    
+    
+}
+.nav-item{
+    padding:15px;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+    tra
+}
+
+  .navbar-nav  li a:hover {
+    color:red ;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+  }
+
+  .sign{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0.8,0.6)), url('../about/bg7.jpg');
+    height: 90vh;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  footer{
+    margin-top: 100px;
+}
+
+.foot{
+    background-image:url('../images/footer.jpg') ;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.form{
+    
+  background-image:url('../images/foot.jpg') ;
+  height: 70vh;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.logo2{
+      
+    width: 180px;
+    margin-top: 50px;
+}
+

@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar{
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: rgb(47, 54, 64,.9)!important;
+}
+.navbar-brand img{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+.navbar-nav li {
+    padding-right:.7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin: 5px 7px;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:tomato;
+
+    border-radius: 5px;
+  box-shadow:  0 0 4px #33ffff,
+               0 0 7px #66ffff;
+   
+
+}
+
+.dropdown-menu .dropdown-item{
+    color:white;
+    padding-top: .8rem; 
+}
+.dropdown-menu .dropdown-item:hover{
+  
+  color: tomato;
+ border-radius: 5px;
+  box-shadow:  0 0 3px #33ffff,
+               0 0 6px #66ffff;
+
+}
+
+.navbar .searchbar{
+    position: relative;
+}
+.navbar .searchbar input[type="text"]{
+    border:  0;
+    padding: 0 px;
+    width: 0px;
+    height: 35px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+
+}
+.navbar .searchbar .icon{
+    position: absolute;
+    top:0;
+    right: 0;
+    background:none;
+    width: 35px;
+    height: 100%;
+    border-radius: 3px;
+    color: #fff;
+    transition: all 0.5s 0.2s ease;
+}
+
+.navbar .searchbar .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+.navbar .searchbar .icon.active{
+    background: gray;
+    transition: all 0.3s ease;
+}
+
+.navbar .searchbar input[type="text"].active{
+    width: 250px;
+    padding: 0 10px;
+    transition: all 0.5s 0.2s ease;
+}
